@@ -1,0 +1,9 @@
+#include "winmainframe.h"
+#include "factory.h"
+
+WinMainFrame::WinMainFrame()
+{
+    QVBoxLayout *p_mainVBoxLayout = Factory::instance()->getVBoxLayout(this);
+    QStackedLayout *p_mainStackedLayout = Factory::instance()->getStackedLayout();
+}
+

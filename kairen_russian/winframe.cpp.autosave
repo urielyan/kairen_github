@@ -1,0 +1,7 @@
+#include "winframe.h"
+
+WinFrame::WinFrame()
+{
+
+}
+
