@@ -37,4 +37,11 @@ QStackedLayout *Factory::getStackedLayout()
     return tmp;
 }
 
+QPushButton *Factory::getButton(QString text, QWidget *parent)
+{
+    QPushButton *tmp = new QPushButton(text, parent);
+
+    return tmp;
+}
+
 Factory::Factory(){}

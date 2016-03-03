@@ -66,3 +66,8 @@ void WinBottomFrame::setSampleLabelText(QString text)
 {
     p_label[enum_SAMPLE]->setText(text);
 }
+
+WinTestMeasurement::WinTestMeasurement(QWidget *parent)
+{
+
+}

@@ -4,6 +4,8 @@
 #include <QVBoxLayout>
 #include <QStackedLayout>
 #include <QLabel>
+#include <QPushButton>
+#include <QButtonGroup>
 
 class Factory : public QObject
 {
@@ -25,6 +27,7 @@ public:
     QStackedLayout * getStackedLayout();
 
     //button
+    QPushButton *getButton(QString text = 0, QWidget *parent = 0);
 private:
     Factory();
 
