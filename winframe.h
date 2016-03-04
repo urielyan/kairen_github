@@ -42,5 +42,16 @@ private:
 };
 
 
+class WinTestMeasurement : public WinAbstractFrame
+{
+    Q_OBJECT
+public:
+    static WinTestMeasurement* instance();
 
+private slots:
+
+private:
+    WinTestMeasurement(QWidget *parent = 0);
+
+};
 #endif // WINFRAME_H
