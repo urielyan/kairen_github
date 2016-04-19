@@ -1,10 +1,14 @@
-ssh-keygen -t rsa -C "urielyan@sina.com" µÃµ½¹«Ô¿ºÍË½Ô¿
+ssh-keygen -t rsa -C "urielyan@sina.com" å¾—åˆ°å…¬é’¥å’Œç§é’¥
 
-git remote add origin https://github.com/urielyan/kairen_github.git -- °Ñ±¾µØ²Ö¿âºÍÔ¶³Ì²Ö¿â¹ØÁªÆğÀ´£¬ Èç¹û²»Ö´ĞĞÕâ¸öÃüÁîµÄ»°£¬Ã¿´Î push µÄÊ±ºò¶¼ĞèÒªÖ¸¶¨Ô¶³Ì·şÎñÆ÷µÄµØÖ·
+git remote add origin https://github.com/urielyan/kairen_github.git -- æŠŠæœ¬åœ°ä»“åº“å’Œè¿œç¨‹ä»“åº“å…³è”èµ·æ¥ï¼Œ å¦‚æœä¸æ‰§è¡Œè¿™ä¸ªå‘½ä»¤çš„è¯ï¼Œæ¯æ¬¡ push çš„æ—¶å€™éƒ½éœ€è¦æŒ‡å®šè¿œç¨‹æœåŠ¡å™¨çš„åœ°å€
 
-git config --global user.name/emaile "urileyan" ÉèÖÃÓÊÏäºÍĞÕÃû
+git config --global user.name/emaile "urileyan" è®¾ç½®é‚®ç®±å’Œå§“å
 
-git  pull origin master ´ÓgithubÖĞ»ñµÃ×ÊÔ´¡£
-git push origin master ½«±»±à¼­µÄÎÄ¼ş·¢ËÍµ½GithubÖĞ¡£
+git  pull origin master ä»githubä¸­è·å¾—èµ„æºã€‚
 
-git show-branch ÏÔÊ¾·ÖÖ§¡£
+å…ˆå°†æœ¬åœ°ä¿®æ”¹çš„æ–‡ä»¶æ·»åŠ åˆ°ç‰ˆæœ¬åº“ä¸­:
+  git commit -a -m "comment"
+å°†ç‰ˆæœ¬åº“æ‰€æœ‰ä¿®æ”¹æ·»åŠ åˆ°ç½‘ç»œäº‘ç«¯:  
+  git push origin master å°†è¢«ç¼–è¾‘çš„æ–‡ä»¶å‘é€åˆ°Githubä¸­ã€‚
+
+git show-branch æ˜¾ç¤ºåˆ†æ”¯ã€‚
