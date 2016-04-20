@@ -12,3 +12,4 @@ git  pull origin master 从github中获得资源。
   git push origin master 将被编辑的文件发送到Github中。
 
 git show-branch 显示分支。
+git remote -v   得到远程git存取地址。
